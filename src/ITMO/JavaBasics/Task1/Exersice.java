@@ -47,6 +47,7 @@ public class Exersice {
         {
             System.out.println("Четное");
         }
+        // Конец Lab1
 
 
     }
