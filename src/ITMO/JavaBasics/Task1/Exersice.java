@@ -10,15 +10,15 @@ public class Exersice {
 
         // Задача №2
         System.out.println("Задача №2");
-        double a = (46 + 10) * (10d / 3d);
+        double a = (46 + 10) * (10 / 3d);
         int w = 29 * 4 * -15;
         System.out.println("(46 + 10) * (10 / 3) = " + a);
         System.out.println("(29) * (4) * (-15) = " + w + "\n");
 
         // Задача №3
         System.out.println("Задача №3");
-        int number = 10500;
-        double result = (number / 10d) / 10d;
+        int number = 3;
+        double result = (number / 10d) / 10;
         System.out.println("(number / 10) / 10 = " + result + "\n");
 
         // Задача №4
