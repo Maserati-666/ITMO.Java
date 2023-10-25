@@ -18,7 +18,7 @@ public class Exersice {
         // Задача №3
         System.out.println("Задача №3");
         int number = 10500;
-        double result = (number / 10) / 10;
+        double result = (number / 10d) / 10d;
         System.out.println("(number / 10) / 10 = " + result + "\n");
 
         // Задача №4
