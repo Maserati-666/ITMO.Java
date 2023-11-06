@@ -2,22 +2,17 @@ package ITMO.JavaBasics.Task4;
 
 // Задача 4.1.1
 public class OddNumber {
-    private static void Input(int oneNumber, int twoNumber) {
-        int some;
-        if (oneNumber % 2 != 0) {
-            some = 0;
-        } else {
-            some = 1;
-        }
-        for (int i = oneNumber + some; i <= twoNumber; ) {
-            System.out.println(i);
-            i = i + 2;
+    private static void input(int oneNumber, int twoNumber) {
+        for (int i = oneNumber; i <= twoNumber; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
         }
     }
 
     public static void main(String[] args) {
 
-        Input(1, 99);
+        input(1, 99);
     }
 }
 

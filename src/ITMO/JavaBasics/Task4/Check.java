@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Задача 4.1.4
 public class Check {
-    private static void Output(){
+    private static void output() {
         System.out.print("Введите первое число: ");
         Scanner scaner = new Scanner(System.in);
         int oneNumber = scaner.nextInt();
@@ -12,17 +12,14 @@ public class Check {
         int twoNumber = scaner.nextInt();
         System.out.print("Введите третье число: ");
         int threeNumber = scaner.nextInt();
-        System.out.print("Результат: " + Checking(oneNumber, twoNumber, threeNumber));
+        System.out.print("Результат: " + checking(oneNumber, twoNumber, threeNumber));
     }
-    private static boolean Checking(int oneNumber, int twoNumber, int threeNumber) {
-        if ((twoNumber > oneNumber) && (threeNumber > twoNumber)) {
-            return true;
-        } else {
-            return false;
-        }
+
+    private static boolean checking(int oneNumber, int twoNumber, int threeNumber) {
+        return (twoNumber > oneNumber) && (threeNumber > twoNumber);
     }
 
     public static void main(String[] args) {
-        Output();
+        output();
     }
 }
