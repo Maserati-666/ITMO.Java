@@ -1,18 +1,14 @@
 package ITMO.JavaBasics.Task5;
 //Задача 5.2
 public class Palindrom {
-    private static boolean Palindr(String word) {
-        StringBuilder builder = new StringBuilder(word);
+    private static boolean palindr(String word) {
+        StringBuilder builder = new StringBuilder(word.toLowerCase());
         String word1 = builder.reverse().toString();
-        if (word.equals(word1)) {
-            return true;
-        } else {
-            return false;
-        }
+        return word.toLowerCase().equals(word1);
     }
 
     public static void main(String[] args) {
-        String word = "арозаупаланалапуазора";
-        System.out.println(Palindr(word));
+        String word = "Топот";
+        System.out.println(palindr(word));
     }
 }
