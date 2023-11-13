@@ -1,9 +1,9 @@
 package ITMO.JavaBasics.Task1;
+
 import java.util.Scanner;
 
 public class Exersice {
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         // Задача №1
         System.out.println("Задача №1");
         System.out.println("Я\nхорошо\nзнаю\nJava.\n");
@@ -38,13 +38,11 @@ public class Exersice {
         System.out.println("Задача №6");
         System.out.println("Введите число: ");
         c = scaner.nextInt();
-        if (c % 2 != 0)
-        {
+        if (c % 2 != 0) {
             System.out.println("Нечетное");
-        }else if (c > 100) {
+        } else if (c > 100) {
             System.out.println("Выход за пределы диапазона");
-        }else
-        {
+        } else {
             System.out.println("Четное");
         }
 
